@@ -2,8 +2,8 @@
 
 (function(module) {
   const aboutController = {};
-  function aboutController.init = function() {
-    $('main').hide();
+  aboutController.init = function() {
+    $('#articles').hide();
     $('#about').show();
   }
   //[x] DONE: Define a function that hides all main section elements, and then reveals just the #about section:
