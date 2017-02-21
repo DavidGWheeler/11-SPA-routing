@@ -1,8 +1,8 @@
 'use strict';
 
-page('/', );
-page('/about', );
-// [x] TODO: Configure routes for this app with page.js, by registering each URL your app can handle,
+page('/', articleController.init);
+page('/about', aboutController.init);
+// [x] DONE: Configure routes for this app with page.js, by registering each URL your app can handle,
 // linked to a a single controller function to handle it:
 
 
